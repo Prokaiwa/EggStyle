@@ -263,8 +263,8 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button variant="yolk" size="lg" asChild>
-              <a href="https://instagram.com/eggstyle" target="_blank" rel="noopener noreferrer">
-                @EggStyle on Instagram
+              <a href="https://instagram.com/eggstyle.us" target="_blank" rel="noopener noreferrer">
+                @eggstyle.us on Instagram
               </a>
             </Button>
             <Button variant="outline" size="lg" className="border-background/30 text-background hover:bg-background hover:text-foreground" asChild>
