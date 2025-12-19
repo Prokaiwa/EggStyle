@@ -5,17 +5,17 @@ import heroImage from "@/assets/hero-previa.jpg";
 import estimaImage from "@/assets/estima-showcase.jpg";
 
 const previaSpecs = {
-  year: "1991",
+  year: "1996",
   model: "Toyota Previa LE",
   market: "USDM",
   engine: "2TZ-FE 2.4L Supercharged",
   transmission: "4-Speed Automatic",
-  drivetrain: "All-Trac AWD",
+  drivetrain: "FWD",
   color: "Super White II",
   modifications: [
     "SC14 Supercharger (factory option)",
     "Lowered suspension",
-    "15\" Enkei RPF1 wheels",
+    "17\" Advan wheels",
     "Custom exhaust",
     "JDM headlights conversion",
     "Period-correct interior refresh",
@@ -23,10 +23,10 @@ const previaSpecs = {
 };
 
 const estimaSpecs = {
-  year: "1992",
-  model: "Toyota Estima Lucida",
+  year: "1998",
+  model: "Toyota Estima",
   market: "JDM Import",
-  engine: "3C-T 2.2L Turbo Diesel",
+  engine: "2TZ-FE 2.4L Supercharged",
   transmission: "4-Speed Automatic",
   drivetrain: "FWD",
   color: "Super White",
@@ -55,13 +55,13 @@ export default function RidesPage() {
         </div>
       </section>
 
-      {/* 1991 Previa */}
+      {/* 1996 Previa */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <span className="text-primary font-bold text-sm uppercase tracking-widest">USDM</span>
-              <h2 className="font-heading text-5xl md:text-6xl mt-2 mb-6">1991 Toyota Previa</h2>
+              <h2 className="font-heading text-5xl md:text-6xl mt-2 mb-6">1996 Toyota Previa</h2>
               
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-secondary rounded-egg p-4">
@@ -106,7 +106,7 @@ export default function RidesPage() {
               <div className="aspect-[4/3] rounded-egg-lg overflow-hidden shadow-lg">
                 <img 
                   src={heroImage} 
-                  alt="1991 Toyota Previa" 
+                  alt="1996 Toyota Previa" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -120,7 +120,7 @@ export default function RidesPage() {
         <div className="border-t border-border" />
       </div>
 
-      {/* 1992 Estima */}
+      {/* 1998 Estima */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -128,7 +128,7 @@ export default function RidesPage() {
               <div className="aspect-[4/3] rounded-egg-lg overflow-hidden shadow-lg">
                 <img 
                   src={estimaImage} 
-                  alt="1992 Toyota Estima" 
+                  alt="1998 Toyota Estima" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -136,7 +136,7 @@ export default function RidesPage() {
             
             <div>
               <span className="text-primary font-bold text-sm uppercase tracking-widest">JDM Import</span>
-              <h2 className="font-heading text-5xl md:text-6xl mt-2 mb-6">1992 Toyota Estima</h2>
+              <h2 className="font-heading text-5xl md:text-6xl mt-2 mb-6">1998 Toyota Estima</h2>
               
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-secondary rounded-egg p-4">
